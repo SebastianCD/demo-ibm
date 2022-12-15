@@ -1,0 +1,132 @@
+/*************************************************************************/
+/*                         Declared Variables                            */
+/*************************************************************************/
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --primary-color: #0f62fe;
+  --secondary-color: #CCC;
+  --terciary-color: #CED89E;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/**************************************************************************************************/
+/*                         Classes used across many pages or components                           */
+/**************************************************************************************************/
+
+  .container {
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  .container2 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+  
+  .title {
+    margin-top: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  
+  .image {
+    margin-top: 1em;
+    border-radius: 10px;
+    max-width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h2 {
+    margin: 0.2em 0;
+    font-size: x-large;
+  }
+  
+  p, b, a, .li1, code{
+    font-size: large;
+    margin: 0.2em 0;
+    text-align: justify;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .li1{
+    margin-top: 1.5em;
+  }
+  .li2{
+    font-size: large;
+    margin-left: 60px;
+    margin-top: 1em;
+    text-align: justify;
+  }
+  
+  .article {
+    margin-top: 1em;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    background-color: #0f62fe;
+    position: fixed;
+    transition: width 1s;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  tr {
+    border-bottom: 1px solid #ddd;
+    padding: auto;
+  }
+
+  tr:hover {background-color: #D6EEEE;}
+
+  .tableDiv{
+    justify-content: center;
+  }
+
+  .glosary{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 7fr 1fr;
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    padding: 2% 4%;
+    background-color: var(--white);
+    color: var(--primary-color);
+  }
+
+  .glosary:hover{
+    background-color: var(--primary-color);
+    color: var(--white);
+    cursor: pointer;
+  }
+
+  .challanges-container {
+    width: 100%;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 100px;
+    overflow: hidden;
+  }
